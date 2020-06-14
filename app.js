@@ -12,6 +12,6 @@ app.use(
   }),
 );
 
-app.listen(process.env.PORT || 80, () => {
+app.listen(process.env.PORT || 4000, () => {
   console.log("Server Started!");
 });
