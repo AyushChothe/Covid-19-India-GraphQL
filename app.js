@@ -4,7 +4,7 @@ const graphqlHTTP = require("express-graphql");
 
 const graphql = require("graphql");
 const axios = require("axios");
-const schema = require("./schema");
+
 const {
   GraphQLObjectType,
   GraphQLString,
