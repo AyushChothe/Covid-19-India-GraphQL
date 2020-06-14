@@ -6,6 +6,11 @@
       "src": "/graphql",
       "dest": "/app.js",
       "methods": ["GET"]
+    },
+    {
+      "src": "/graphql?",
+      "dest": "/app.js",
+      "methods": ["GET"]
     }
   ]
 }
