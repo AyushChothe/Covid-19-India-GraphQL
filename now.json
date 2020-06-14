@@ -5,7 +5,7 @@
     {
       "src": "/.*",
       "dest": "/app.js",
-      "methods": ["GET"]
+      "methods": ["GET", "POST"]
     }
   ]
 }
