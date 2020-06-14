@@ -9,6 +9,11 @@
       "src": "/graphql",
       "dest": "/app.js",
       "methods": ["GET"]
+    },
+    {
+      "src": "/schema",
+      "dest": "/schema.js",
+      "methods": ["GET"]
     }
   ]
 }
