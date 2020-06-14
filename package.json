@@ -9,12 +9,9 @@
   "author": "Ayush Chothe",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
-    "graphql": "^14.1.1",
-    "axios": "^0.19.2"
-  },
-  "engines": {
-    "node": "10.x"
+    "graphql": "^14.1.1"
   }
 }
