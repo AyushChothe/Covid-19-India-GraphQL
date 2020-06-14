@@ -1,18 +1,10 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "app.js", "use": "@now/node-server" },
-    { "src": "schema.js", "use": "@now/node-server" }
-  ],
+  "builds": [{ "src": "app.js", "use": "@now/node-server" }],
   "routes": [
     {
       "src": "/graphql",
       "dest": "/app.js",
-      "methods": ["GET"]
-    },
-    {
-      "src": "/schema",
-      "dest": "/schema.js",
       "methods": ["GET"]
     }
   ]
