@@ -3,11 +3,6 @@
   "builds": [{ "src": "app.js", "use": "@now/node-server" }],
   "routes": [
     {
-      "src": "/graphql",
-      "dest": "/app.js",
-      "methods": ["GET"]
-    },
-    {
       "src": "/graphql?",
       "dest": "/app.js",
       "methods": ["GET"]
